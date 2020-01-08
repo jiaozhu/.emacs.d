@@ -4,8 +4,8 @@
 (require 'pkg-ui)
 (require 'pkg-deps)
 (require 'pkg-python)
-(require 'pkg-keys)
-
+(require 'pkg-ivy-counsel)
+(require 'pkg-helm)
 
 (provide 'init)
 (custom-set-variables

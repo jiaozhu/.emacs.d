@@ -23,3 +23,5 @@ snippets
 transient/
 elpy
 history
+semanticdb
+ede-projects.el

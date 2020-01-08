@@ -18,7 +18,9 @@
   (doom-themes-org-config))
 
 (if (member "Source Code Pro" (font-family-list))
-    (set-face-attribute 'default nil :font "Source Code Pro 11"))
+    (set-face-attribute 'default nil :font "Source Code Pro 14"))
+
+(setq-default tab-width 4)
 
 (if window-system
     (progn

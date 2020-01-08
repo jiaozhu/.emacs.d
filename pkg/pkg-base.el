@@ -22,6 +22,12 @@
 (setenv	"LC_ALL" "en_US.UTF-8")
 (setenv	"LC_CTYPE" "en_US.UTF-8")
 
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(set-language-environment "UTF-8")
+(prefer-coding-system 'utf-8)
+
+
 ;; useful mode settings
 (display-time-mode 1)
 (column-number-mode 1)
