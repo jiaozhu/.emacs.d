@@ -2,7 +2,7 @@
 
 > 从 vim 阵营跳了出来，记录一下自己的配置，还有一些老是忘的快捷键
 
-![截图](https://cdn.qiwm.com/github/Screenshot-20191223001701-1674x1041.png)
+![截图](https://cdn.qiwm.com/blog/qb6z4.jpg)
 
 ## 获取帮助
 
