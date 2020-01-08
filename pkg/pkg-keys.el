@@ -10,5 +10,12 @@
 (global-set-key (kbd "<C-left>") 'shrink-window-horizontally)
 (global-set-key (kbd "<C-right>") 'enlarge-window-horizontally)
 
+;; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;;	Usefule global key bind
+;; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+(global-set-key (kbd "C-\\") 'comment-line)
+(global-set-key (kbd "C-+") 'text-scale-increase)
+(global-set-key (kbd "C--") 'text-scale-decrease)
+
 
 (provide 'pkg-keys)

@@ -61,6 +61,4 @@
                         (bookmarks . 5)
                         (projects . 5)))
 
-
-
 (provide 'pkg-ui)

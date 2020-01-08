@@ -18,6 +18,10 @@
    ("C-h v" . counsel-describe-variable)
    ("C-h l" . counsel-load-library)))
 
+;;;(setq counsel-find-file-ignore-regexp "\\.projectile\\'")
+(use-package regexp-opt)
+(setq-default counsel-find-file-ignore-regexp (regexp-opt '(".pyc" ".projectile" ".DS_Store")))
+
 (use-package counsel-projectile
   :init
   (counsel-projectile-mode))

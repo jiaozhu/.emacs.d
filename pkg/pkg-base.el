@@ -57,12 +57,9 @@
 (setq backup-directory-alist `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
 
-;; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-;;	Usefule global key bind
-;; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-(global-set-key (kbd "C-\\") 'comment-line)
-(global-set-key (kbd "C-+") 'text-scale-increase)
-(global-set-key (kbd "C--") 'text-scale-decrease)
+;;; 关闭自动备份
+(setq auto-save-default nil
+      auto-save-timeout 0)
 
 ;; (setq url-proxy-services
    ;; '(("no_proxy" . "^\\(localhost\\|10\\..*\\|192\\.168\\..*\\)")
