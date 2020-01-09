@@ -6,6 +6,7 @@
 (require 'pkg-python)
 (require 'pkg-ivy-counsel)
 (require 'pkg-helm)
+(require 'pkg-keys)
 
 (provide 'init)
 (custom-set-variables

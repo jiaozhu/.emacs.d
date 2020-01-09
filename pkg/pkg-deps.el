@@ -22,8 +22,8 @@
 ;;	Disable the mouse in Emacs
 ;;	https://github.com/purcell/disable-mouse
 ;; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-(use-package disable-mouse
-  :config (global-disable-mouse-mode))
+;; (use-package disable-mouse
+;;  :config (global-disable-mouse-mode))
 
 
 ;; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -83,10 +83,10 @@
   :config
   (projectile-global-mode))
 
-(use-package dashboard
-  :ensure t
-  :config
-  (dashboard-setup-startup-hook))
+;(use-package dashboard
+;  :ensure t
+;  :config
+;  (dashboard-setup-startup-hook))
 
 (use-package ace-window
   :config

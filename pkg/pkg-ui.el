@@ -38,27 +38,12 @@
   :hook (after-init . doom-modeline-mode))
 
 (use-package all-the-icons)
-;;(set-face-background 'vertical-border (face-background 'default))
-;;(set-face-foreground 'vertical-border "grey")
 
 (setq initial-frame-alist (quote ((fullscreen . maximized))))
 ;; Default transparency
 ;;(add-to-list 'default-frame-alist '(alpha . 95))
 (setq-default frame-title-format '("%f [%m]"))
-;; dashboard
-;; Set the title
-(setq dashboard-banner-logo-title "Wythe's Emacs")
-;; Set the banner
-(setq dashboard-startup-banner "~/.emacs.d/splash-images/emacs-china-icon.png")
-;; Content is not centered by default. To center, set
-(setq dashboard-center-content t)
-(setq dashboard-footer "While any text editor can save your files, only Emacs can save your soul.")
-(setq dashboard-footer-icon (all-the-icons-octicon "bug"  :height 1.1  :v-adjust -0.05  :face 'font-lock-keyword-face))
-(setq dashboard-set-navigator t)
-(setq dashboard-set-file-icons t)
-(setq dashboard-set-heading-icons t)
-(setq dashboard-items '((recents  . 10)
-                        (bookmarks . 5)
-                        (projects . 5)))
+
+(setq inhibit-splash-screen t) 
 
 (provide 'pkg-ui)
