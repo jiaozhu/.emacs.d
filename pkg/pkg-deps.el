@@ -124,7 +124,7 @@
 ;;; gcc -xc++ -E -v -
 (defun my:ac-c-header-init ()
   (add-to-list 'ac-sources 'ac-source-c-headers)
-  (add-to-list 'achead:include-directories '"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include")
+  (add-to-list 'achead:include-directories '"/usr/include")
 )
 ; now let's call this function from c/c++ hooks
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)

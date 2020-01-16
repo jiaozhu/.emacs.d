@@ -13,6 +13,7 @@
   (require 'use-package))
 (setq use-package-verbose t)
 (setq use-package-always-ensure t)
+(setq package-check-signature nil)
 
 ;; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;;	setup coding system and window property
